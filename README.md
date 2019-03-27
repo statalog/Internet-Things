@@ -24,8 +24,8 @@ Invigorating access to reliable case studies, infographics, stats, facts, and fi
 ---
 ## Credit: 
 All contributions are valuable and appreciated. If you enjoy using Statalog, please take a moment to thank everyone below.
-+ [link]: Contributor Name Goes Here
-+ [link]: Contributor Name Goes Here
+
+`ChiefOopsmaster` | `contributor name` | `contributor name` | `contributor name` | `contributor name` | `contributor name`
 
 ---
 ## License: 
