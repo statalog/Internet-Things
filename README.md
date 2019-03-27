@@ -1,6 +1,4 @@
 # Stats + Data + Catalog
-Together, we can do more!
-
 Stats, data, and case studies, available at your fingertips
 
 ## Our Purpose
