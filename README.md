@@ -1,10 +1,10 @@
-statalog.org/blog
+www.statalog.org/blog
 
-statalog.org/about
+www.statalog.org/about
 
-statalog.org/FAQ
+www.statalog.org/FAQ
 
-statalog.org/Contact
+www.statalog.org/Contact
 
 www.ideas.statalog.org 
 
