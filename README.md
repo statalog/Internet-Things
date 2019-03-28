@@ -13,7 +13,7 @@ See https://statalog.org
 
 ---
 ### Contributing
-See Wiki
+See Wiki https://github.com/statalog/Statalog/wiki/Contributing
 
 ---
 ### Credit
