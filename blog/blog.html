@@ -2,6 +2,17 @@
 title: Statalog Blog - Statablog
 layout: blog
 ---
+{% include blog_header.html %}
+
+<div class="row">
+  <div class="span9">
+    <ul class="blog posts">
+      {% for post in site.categories.blog %}
+        {% include blog_posts.html %}
+      {% endfor %}
+    </ul>
+  </div>
+
 <body>
 <p class="p1">&lt;html&gt;</p>
 <p class="p2"><br></p>
