@@ -1,14 +1,3 @@
-www.statalog.org/blog
-
-www.statalog.org/about
-
-www.statalog.org/FAQ
-
-www.statalog.org/Contact
-
-www.ideas.statalog.org 
-
-
 # Stats + Data + Catalog
 Stats, data, and case studies, available at your fingertips
 
