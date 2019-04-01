@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+
+ <title>Statalog: Statablog</title>
+ <link href="https://statalog.org/blog/feed.xml" rel="self"/>
+ <link href="https://statalog.org/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>https://statalog.org/</id>
+ <author>
+   <name>Statalog</name>
+ </author>
+
+ {% for post in site.categories.blog %}
+ <entry>
+   <title>{{ post.title | xml_escape }}</title>
+   <link href="https://statalog.org{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>https://statalog.org{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+   <author>
+     <name>{{ post.author }}</name>
+   </author>
+ </entry>
+ {% endfor %}
+ 
+</feed>
