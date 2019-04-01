@@ -1,8 +1,7 @@
-
 /*Text*/
   h1, #title {
-  font-family: "Pompiere", cursive;
   color: #0b3c49;
+  font-family: "Comfortaa", cursive;
   font-size: 33px;
 }
   h2,h3,h4,h5,h6 {
@@ -16,11 +15,13 @@
   font-size: 16px;
 }
     #subtitle {
+font-family: "Pompiere", cursive;
 color: #C0C0BB;
 font-size: 20px;
 }
     #caption {
 color: #C0C0BB;
+font-family: "Nunito", sans-serif;
 font-size: 17px;
 }
 
