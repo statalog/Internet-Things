@@ -8,11 +8,20 @@
   h2,h3,h4,h5,h6 {
   color: #f28d00;
   font-family: "Comfortaa", cursive;
+  font-size: 27px;
 }
   p {
   font-family: "Nunito", sans-serif;
   color: #232323;
   font-size: 16px;
+}
+    #subtitle {
+color: #C0C0BB;
+font-size: 20px;
+}
+    #caption {
+color: #C0C0BB;
+font-size: 17px;
 }
 
 /*footer*/
@@ -36,8 +45,7 @@
 /*links*/
   a:link {color: #e3e0eb;  text-decoration: none;}
   a:visited {color: #f28d00;  text-decoration: none;}
-  a:hover {color: ;
-  color: #c0c0bb;
+  a:hover {color: #c0c0bb;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
