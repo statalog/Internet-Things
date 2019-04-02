@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
 /*Text*/
   h1, #title {
   color: #0b3c49;
