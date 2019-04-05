@@ -9,15 +9,36 @@ assignees: ''
 
 ###Structure
 ---
- *  “As a <role or persona>, I can <goal/need> so that <why>”
+ *  “As a <user, role, or persona>, I can <goal/need> so that <why>”
 Or, in another instance:
 
- * “As a <particular class of user>, I want to <be able to perform/do something> so that <I get some form of value or benefit>”
-###Examples
----
- * 
+ * “As a <user, role, or persona>, I want to <be able to perform/do something> so that <I get some form of value or benefit>”
 
- * 
+ * As a [user],  I wanna be able to x, y, and z because it will help me a, b, and c.
+
+###Examples
+
+---
+ * As a startup business user,
+ * As a small business user,
+ * As a big business user,
+ * As a college student user,
+ * As a middle/high school user,
+ * As a marketing user,
+ * As a social media poster, 
+ * As an influencer of [something]
+ * As a data scientist user,
+ * As a researcher,
+ * As a parent,
+ * As a teacher,
+ * As an employee,
+ * As a manager,
+ * As a job seeker,
+ * As an avid Wikipedia user,
+ * As an occasional Wikipedia user,
+ * As a blogger,
+ * As a general public user,
+
 When compiling your stories, focus on providing clarity about your product features — the what, not the how.
 
 ###Note: User Stories =/= tasks
