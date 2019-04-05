@@ -11,6 +11,9 @@ Invigorating access to reliable case studies, infographics, stats, facts, and fi
 ### Usage
 See https://statalog.org
 
+[![star this repo](http://githubbadges.com/star.svg?user=Statalog&repo=Statalog&style=default&color=eee&background=c0c0bb)](https://github.com/Statalog/Statalog)
+[![fork this repo](http://githubbadges.com/fork.svg?user=Statalog&repo=Statalog&style=default&color=eee&background=c0c0bb)](https://github.com/Statalog/Statalog/fork)
+
 ---
 ### Contributing
 See Wiki https://github.com/statalog/Statalog/wiki/Contributing
