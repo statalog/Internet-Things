@@ -24,6 +24,8 @@ Or, in another instance:
 
  * As a user, I want to ability to make any single part of my profile public or private.
 
+ * As a free user,
+ * As a paid user,
  * As a startup business user,
  * As a small business user,
  * As a big business user,
