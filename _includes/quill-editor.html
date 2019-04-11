@@ -1,0 +1,120 @@
+<style>
+#form-container {
+  width: 500px;
+}
+
+.row {
+  margin-top: 15px;
+}
+.row.form-group {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btn {
+  margin-left: 15px;
+}
+
+.change-link {
+  background-color: #444;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  bottom: 0;
+  color: #eee;
+  opacity: 0.8;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+}
+.change-link:hover {
+  color: #eee;
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+}
+
+#editor-container {
+  height: 130px;
+}
+</style>
+
+<body>
+<div id="form-container" class="container">
+  <form>
+    <div class="row">
+      <div class="col-xs-4">
+        <img class="img-rounded" src="https://via.placeholder.com/350x300/">
+        <a class="change-link" href='#'>Change picture</a>
+      </div>
+    </div>
+        <div class="row">
+      <div class="row-xs-8">
+        <div class="form-group">
+
+        <div class="form-group">
+          <label for="Heading">Blog Heading</label>
+          <input class="form-control"  name="heading" type="text" placeholder="Name for your post">
+        </div>
+      </div>
+    </div>
+    <class="row form-group">
+      <label for="post">Your text</label>
+      <input name="post" type="hidden">
+      <div id="editor-container">
+      </div>
+
+    <div class="row">
+<div class="well">
+        <label for="date">Published on...</label>
+  <div id="datetimepicker4" class="input-append">
+    <input class="form-control" name="date" data-format="yyyy-MM-dd" type="text" placeholder="YYYY-MM-DD"></input>
+    <span class="add-on">
+      <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+      </i>
+    </span>
+  </div>
+</div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+
+
+</body>
+
+<script>
+var quill = new Quill('#editor-container', {
+  modules: {
+    toolbar: true
+  },
+  placeholder: 'Whatcha waiting for? Go ahead, compose your epic masterpiece',
+  theme: 'snow'
+});
+
+var form = document.querySelector('form');
+form.onsubmit = function() {
+  // Populate hidden form on submit
+  var about = document.querySelector('input[name=about]');
+  about.value = JSON.stringify(quill.getContents());
+  
+  console.log("Submitted", $(form).serialize(), $(form).serializeArray());
+  
+
+  
+  
+  
+  // No back end to actually submit to!
+  alert('Open the console to see the submit data!')
+  return false;
+};
+
+  $(function() {
+    $('#datetimepicker4').datetimepicker({
+      pickTime: false
+    });
+  });
+
+
+</script>
