@@ -134,7 +134,7 @@ body {
 		right: 0;
 		width: 50%;
 		height: 90%;
-		background: url(../img/hero-bg.png) no-repeat bottom right/contain;
+		background: url(../img/hero-bg.gif) no-repeat bottom right/contain;
 		z-index:2;
 		@include media-breakpoint-down(xs) {
 			display: none;
@@ -411,11 +411,11 @@ body {
 		opacity:  1;
 		font-weight: 300;
 	}
-	:-ms-input-placeholder { 
+	:-ms-input-placeholder {
 		color:    #fff;
 		font-weight: 300;
 	}
-	::-ms-input-placeholder { 
+	::-ms-input-placeholder {
 		color:    #fff;
 		font-weight: 300;
 	}
