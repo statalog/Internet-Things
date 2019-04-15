@@ -1882,9 +1882,9 @@ nav {
     text-align: right;
     padding: 20px 0;
     z-index: 5;
-    background-image: -moz-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-    background-image: -webkit-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-    background-image: -ms-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
+    background-image: -moz-linear-gradient(0deg, #0b3c49 0%, #86b500 100%);
+    background-image: -webkit-linear-gradient(0deg, #0b3c49 0%, #86b500 100%);
+    background-image: -ms-linear-gradient(0deg, #0b3c49 0%, #86b500 100%);
   }
 }
 
@@ -1912,9 +1912,9 @@ nav a:hover {
 }
 
 body {
-  background-image: -moz-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-  background-image: -webkit-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-  background-image: -ms-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
+  background-image: -moz-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
+  background-image: -webkit-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
+  background-image: -ms-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
 }
 
 .main-wrapper-first {
@@ -1966,13 +1966,13 @@ body {
 }
 
 .p1-gradient-bg, .primary-btn:after, .banner-area, .featured-area, .story-area, .footer-social a:after {
-  background-image: -moz-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
-  background-image: -webkit-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
-  background-image: -ms-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
+  background-image: -moz-linear-gradient(0deg, #86b500 0%, #444444 100%);
+  background-image: -webkit-linear-gradient(0deg, #86b500 0%, #444444 100%);
+  background-image: -ms-linear-gradient(0deg, #86b500 0%, #444444 100%);
 }
 
 .p1-gradient-color, .single-work-process .work-icon-box span, .single-feature .primary-btn:hover span, .single-remark .primary-btn span, .story-area .primary-btn span, .contact-form .primary-btn span {
-  background: -webkit-linear-gradient(0deg, #3e69fe, #4cd4e3);
+  background: -webkit-linear-gradient(0deg, #86b500, #444444);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
