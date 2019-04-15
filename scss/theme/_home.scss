@@ -1,7 +1,7 @@
 body {
-	background-image: -moz-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
-	background-image: -webkit-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
-	background-image: -ms-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
+	background-image: -moz-linear-gradient( 0deg, rgb(76,212,227) 0%, rgb(62,105,254) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(76,212,227) 0%, rgb(62,105,254) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(76,212,227) 0%, rgb(62,105,254) 100%);
 }
 .main-wrapper-first {
 	width: 68.75%;
@@ -32,9 +32,9 @@ body {
 	}
 }
 .p1-gradient-bg {
-	background-image: -moz-linear-gradient(0deg, #0b3c49 0%, #86b500 100%);
-	background-image: -webkit-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
-	background-image: -ms-linear-gradient(0deg, #86b500 0%, #0b3c49 100%);
+	background-image: -moz-linear-gradient( 0deg, rgb(62,105,254) 0%, rgb(76,212,227) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(62,105,254) 0%, rgb(76,212,227) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(62,105,254) 0%, rgb(76,212,227) 100%);
 }
 .p1-gradient-color {
 	background: -webkit-linear-gradient(0deg, #3e69fe, #4cd4e3);
