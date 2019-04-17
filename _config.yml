@@ -1,12 +1,13 @@
 theme: jekyll-theme-architect
 
+
 # Configuration for welcome - https://github.com/behaviorbot/welcome
 
 # Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
 
 # Comment to be posted to on first time issues
 newIssueWelcomeComment: >
-  Thanks for opening your first issue here!
+  Thanks for opening your first issue!
 
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 
@@ -18,8 +19,21 @@ newPRWelcomeComment: >
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-  Congrats on merging your first pull request! 🎉 We're proud of you! 
-  
+  Congrats on merging your first pull request! 🎉 We're proud of you!
+
   https://media.giphy.com/media/l2Sqir5ZxfoS27EvS/giphy.gif
 
 # It is recommended to include as many gifs and emojis as possible!
+
+
+# Build settings
+
+# Jekyll Front matter defaults
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#        layout: "post"
+#        title: 
