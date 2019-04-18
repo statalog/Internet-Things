@@ -1,69 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-<head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/logo.png">
-	<!-- Author Meta -->
-	<meta name="author" content="Vicki">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="stats, statistics, data, metrics, case study">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>Statalog</title>
+<!DOCTYPE html>
+<html lang="en">
 
-	<link href="https://fonts.googleapis.com/css?family=Nunito:300,500,600" rel="stylesheet">
-		<!--
-		CSS
-		============================================= -->
-		<link rel="stylesheet" href="css/linearicons.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/nice-select.css">
-		<link rel="stylesheet" href="css/magnific-popup.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/main.css">
-	</head> <!--head ends-->
+  {% include head.html %}
 
-	<!--Body begins-->
-	<body>
-		<div class="main-wrapper-first">
-			<div class="hero-area relative">
-				<header>
-					<div class="container">
-						<div class="header-wrap">
-							<div class="header-top d-flex justify-content-between align-items-center">
-								<div class="logo">
-									<a href="index.html"><img src="img/logo.png" alt=""></a>
-								</div>
-								<div class="main-menubar d-flex align-items-center">
-									<nav class="hide">
-										<a href="https://airtable.com/shrv96hjMKONJNdoi" class="primary-btn d-inline-flex align-items-center"><span class="mr-10">Request Access</span><span class="lnr lnr-arrow-right"></span></a>
-										<a href="/index.html">Home</a>
-										<a href="#.html">Explore</a>
-										<a href="#.html">Upload</a>
-										<a href="#.html">My Settings</a>
-									</nav>
-									<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-				</header>
+  {% include header.html %}
 
+  <body>
+    <section class="post-wrapper">
+      <p class="post-date">{{ page.date }}</p>
+    </section>
+    <h1 class="post-title">Building a blog using Jekyll. Creating custom&nbsp;layouts</h1>
+    <article class="post-content">
+      {{content}}
+    </article>
+  </body>
 
-				<div class="container">
-			    <div class="content">
-			      {{ content }}<!--stuff goes here-->
-			    </div>
-			  </div>
-
-
-</body>
+  {% include footer.html %}
 </html>
