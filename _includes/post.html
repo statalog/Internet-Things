@@ -1,20 +1,49 @@
- <li>
-        <div class="details">
-          <div class="meta">
-            <span class="date">{{ post.date | date_to_long_string }}</span>
-            <span class="author">{{ post.author }}</span> 
-          </div>
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </div>
-        {% if post.snapshot %}
-          <div class="snapshot">
-            <a href="{{ post.url }}"><img src="/img/projects/{{ post.snapshot }}.png"></a>
-          </div>
-        {% endif %}
-        <div class="excerpt">
-          {{ post.content | markdownify | strip_html | truncatewords: 45 }} 
-        </div>
-        <div class="more">
-          <a href="{{ post.url }}" title="read full post">●●●●●</a>
-        </div>
-      </li>
+---
+layout: page
+categories: post
+---
+
+<div class="post">
+<div class="row">
+  <div class="span8">
+
+      <div class="post-top">
+	{% for person in site.categories.members %}{% if person.username == page.username %}{% if person.img %}
+	<a href="/members/{{ person.username }}">
+	  <img  class="photo" src="{{person.img}}">
+	</a>
+	{% endif %}{% endif %}{% endfor %}
+	<div>
+	  <h1>{{ page.title }}</h1>
+	  <div class="post-meta">
+	    Posted on <span class="post-date">{{ page.date | date_to_long_string }}</span>
+	    by
+	    <span class="post-author"><a href="/members/{{page.username}}">{{ page.author }}</a></span>
+	  </div>
+	</div>
+      </div>
+
+    {% if page.snapshot %}
+      <div class="snapshot">
+        <img src="/img/projects/{{ page.snapshot }}.png">
+      </div>
+    {% endif %}
+
+    {{content}}
+
+    <div class="blog-comments">
+      <h2 id="comments">Comments</h2>
+      <div id="disqus_thread"></div>
+    </div>
+
+    <script type="text/javascript">
+        var disqus_shortname = 'okfnlabs';
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
