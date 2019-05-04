@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+  {% include head.html %}
+
+  {% include header.html %}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h1>Go ahead, you know how to login</h1>
+
+<br />
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+    </div>
+    <!-- Adding some flex properties to center the form and some height to the page, these can be omitted -->
+    <div class="col-sm-12 col-md-8 col-lg-6" style="height: calc(100vh - 10.25rem); display: flex; align-items: center; flex: 0 1 auto;">
+      <form>
+        <fieldset>
+          <legend>Login form</legend>
+            <div class="input-group fluid">
+              <label for="username" style="width: 80px;">Username</label>
+              <input type="email" value="" id="username" placeholder="username">
+            </div>
+            <div class="input-group fluid">
+              <label for="pwd" style="width: 80px;">Password</label>
+              <input type="password" value="" id="pwd" placeholder="password">
+            </div>
+            <div class="input-group fluid">
+              <button class="primary">Login</button>
+              <button>Forgot password?</button>
+            </div>
+        </fieldset>
+      </form>
+    </div>
+    <div class="col-sm">
+    </div>
+  </div>
+</div>
+
+</body>
+
+{% include footer.html %}
+</html>
