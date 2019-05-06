@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-  {% include head.html %}
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.21.0/feather.min.js">
+</head>
+	<!--head ends-->
 
-  {% include header.html %}
+  <header>
+  	<div class="container">
+  		<header class="sticky">
+  		  <a href="index.html" class="logo"><img src="img/logo.png" alt="" height="30" width="30"></a>
+        <span class="icon-search"></span>
+        <input placeholder="Search..." type="search" id="search-bar" oninput="search()">
+  		  <a href="https://airtable.com/shrv96hjMKONJNdoi" class="button">Request Access</a>
+  			<a href="Upload.html" class="button"><span class="tooltip bottom" aria-label="Coming soon!">Upload<span class="icon-upload"></span></span></a>
+  		  <a href="#" class="button"><span class="tooltip bottom" aria-label="Coming soon!"><span class="icon-user"></span></span></button>
+  		</header>
+  				</div>
+  </header>
+
 
   <body>
 <h1>The Statalog Brand</h1>
@@ -12,6 +29,7 @@
 
 <!--begin jump to nav-->
 <div>
+  <nav>
 <p>Jump To</p>
 <ul>
   <li><a href="#colors" alt="colors">Colors<a></li>
@@ -20,115 +38,51 @@
   <li><a href="#words" alt="#">#<a></li>
   <li><a href="#words" alt="#">#<a></li>
     </ul>
+  </nav>
 </div>
 <!--end jump to nav-->
 
 
-<div>
-<h2 id="colors">Color Combinations</h2>
+  <h2>Accessiblity Color Combinations</h2>
 
-<img src="/img/brand-colors.png">
-<h3>Please Do</h3>
-<div class="container">
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/0B3C49/C0C0BB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/0B3C49/E3E0EB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/0B3C49/86B500" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/0B3C49/F2A130" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/444444/C0C0BB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/444444/E3E0EB" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/C0C0BB/0B3C49" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/C0C0BB/444444" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/E3E0EB/0B3C49" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/E3E0EB/444444" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/E3E0EB/86B500" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/86B500/0B3C49" alt="placeholder"></div>
+  <div class="collapse">
+
+    <input type="radio" id="accordion-section1" checked aria-hidden="true" name="accordion">
+    <label for="accordion-section1" aria-hidden="true">Accessible</label>
+    <div>
+      <p>This is the first section of the accordion</p>
+    </div>
+
+    <input type="radio" id="accordion-section2" aria-hidden="true" name="accordion">
+    <label for="accordion-section2" aria-hidden="true">Accessible with Large Text ONLY</label>
+    <div>
+      <p>This is the second section of the accordion</p>
+    </div>
+
+    <input type="radio" id="accordion-section3" aria-hidden="true" name="accordion">
+    <label for="accordion-section3" aria-hidden="true">Unaccessible, Do Not Use</label>
+    <div>
+      <p>For accessibility purposes, these are not to be used. <a href="https://abc.useallfive.com/?colors[]=0B3C49,444444,C0C0BB,E3E0EB,86B500,F28130,B52D00" alt=
+      'accessibility color reference'>-reference link</a></p>
+    </div>
 
   </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/F2A130/0B3C49" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/B52D00/E3E0EB" alt="placeholder"></div>
-  </div>
-</div>
 
-<h3>Please avoid small text</h3>
-<div class="container">
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/444444/86B500" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/0b3c49/B52D00" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/86B500/444444" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/F2A130/444444" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/C0C0BB/B52D00" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/B52D00/C0C0BB" alt="placeholder"></div>
-  </div>
-</div>
+<img src="img/2019-05_Colors_Yes.png" alt="not accessible colors">
+<img src="img/2019-05_Colors_Large-text.png" alt="not accessible colors">
+<img src="img/2019-05_Colors_No.png" alt="not accessible colors">
 
-<h3>Please Avoid*</h3>
-<div class="container">
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/0b3c49/444444" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/0b3c49/B52D00" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/444444/0b3c49" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/444444/B52D00" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/C0C0BB/E3E0EB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/C0C0BB/86B500" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/C0C0BB/F2A130" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/E3E0EB/C0C0BB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/E3E0EB/86B500" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/E3E0EB/F2A130" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/86B500/C0C0BB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/86B500/E3E0EB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/86B500/F2A130" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/86B500/B52D00" alt="placeholder"></div>
-  </div>
 
-  <br>
-  <div>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/F2A130/C0C0BB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/F2A130/E3E0EB" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/F2A130/86B500" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/F2A130/B52D00" alt="placeholder"></div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-3"><img src="https://via.placeholder.com/75/B52D00/0b3c49" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/B52D00/444444" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/B52D00/86B500" alt="placeholder"></div>
-    <div class="col-3"><img src="https://via.placeholder.com/75/B52D00/F2A130" alt="placeholder"></div>
-  </div>
-</div>
+
+
+  <div><h3>Tiber - #0B3C49</h3></div>
+  <div><h3>Fuel Yellow - #F2A130</h3></div>
+  <div><h3>Limeade - #86B500</h3></div>
+  <div><h3>Tundora - #444444</h3></div>
+  <div><h3>Gray Nickel - #C0C0BB</h3></div>
+  <div><h3>Mischka - #E3E0EB</h3></div>
+  <div><h3>Fire - #B52D00</h3></div>
+
 
 
 
