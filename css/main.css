@@ -1,19 +1,19 @@
 @charset "UTF-8";
 /*
-  Flavor name: Default (mini-default)
-  Author: Angelos Chalaris (chalarangelo@gmail.com)
-  Maintainers: Angelos Chalaris
-  mini.css version: v3.0.0-alpha.3
+Flavor name: Statalog-Default (statalog-default)
+Author: Vicki Langer (vicki.langer@statalog.com)
+Maintainers: Vicki Langer
+mini.css version: v0.0
 */
 /*
   Browsers resets and base typography.
 */
 /* Core module CSS variable definitions */
 :root {
-  --fore-color: #023; <!--global text-->
+  --fore-color: #0b3c49; <!--global text-->
   --secondary-fore-color: #444; <!--global secondary text and header text-->
-  --back-color: #b52d00;
-  --secondary-back-color: #fdfdfd;
+  --back-color: #f4f4f4;
+  --secondary-back-color: #e3e0eb;
   --blockquote-color: #86b500;
   --pre-color: #f2a130;
   --border-color: #aaa; <!--global and hr elements-->
