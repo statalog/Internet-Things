@@ -2168,3 +2168,77 @@ span.icon-user {
     overflow: hidden !important;
   }
 }
+.index-splash {
+    width: 100%;
+    height: 100vh
+}
+
+.index-splash-image {
+    background-image: url("https://absurd.design/assets/img/story.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+.index-splash-image:not(.no-filter) {
+    filter: blur(2px)
+}
+
+h1.splash {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    line-height: 60vh;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #f22f21
+}
+
+h1.splash small {
+    display: initial;
+    font-size: 0.5em;
+    color: #222
+}
+
+h1.splash::first-letter {
+    font-size: 1.33em;
+    color: #fff;
+    background: #f22f21;
+    border-radius: 6px;
+    padding: 0 10px
+}
+
+p.splash {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 40vh
+}
+
+.card p:not(.doc), .card li:not(.doc) {
+    text-align: justify
+}
+
+a.button.splash {
+    position: absolute;
+    top: 65vh;
+    width: 50vw;
+    left: 25vw;
+    text-align: center;
+    font-size: 1.25rem;
+    border-color: #f22f21;
+    background: rgba(255, 255, 255, 0.35);
+    transition: all 0.3s
+}
+
+a.button.splash:hover {
+    background: #f22f21;
+    color: #f8f8f8;
+    border-color: #202af2
+}
