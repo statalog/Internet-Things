@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Statalog - Basic UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello Devs @ Statalog
+      </h1>
+      <p class="subtitle">
+        For reference, use the docs at <a href="https://bulma.io/documentation" alt="Bulma framework documentation">Bulma.io</a>.
+      </p>
+    </div>
+    <div class="container">
+      <h2 class="title">Colors</h2>
+      <p>Bulma uses 3 custom functions to help define the values and colors dynamically:</p>
+      <ul>
+<li><code>powerNumber($number, $exp)</code>: calculates the value of a number exposed to another one. Returns a number.</li>
+<li><code>colorLuminance($color)</code>: defines if a color is dark or light. Return a decimal number between 0 and 1 where <= 0.5 is dark and > 0.5 is light.</li>
+<li><code>findColorInvert($color)</code>: returns either 70% transparent black or 100% opaque white depending on the luminance of the color.</li>
+      </ul>
+      <p>The findColorInvert() function #
+
+The findColorInvert($color) function takes a color as an input, and outputs either transparent black rgba(#000, 0.7) or white #fff:
+
+if colorLuminance($color) > 0.55, it outputs rgba(#000, 0.7)
+otherwise, it outputs #fff
+Its purpose is to guarantee a readable shade for the text when the input color is used as the background.</p>
+
+    </div>
+    <div class="container">
+    <h2 class="title">Buttons</h2>
+    <p class="subtitle">Different types of buttons</p>
+<h3>Basic</h3>
+<button class="button">Button</button>
+<button class="button is-active">Active button</button>
+<h3>Use</h3>
+<button class="button is-primary">Primary button</button>
+<button class="button is-info">Info button</button>
+<button class="button is-success">Success button</button>
+<h3>Sizes</h3>
+<button class="button is-Small">Small button</button>
+<button class="button is-medium">Medium button</button>
+<button class="button is-large">Large button</button>
+<h3>Visual</h3>
+<button class="button is-outlined">Outlined button</button>
+<button class="button is-inverted">Inverted button</button>
+<button class="button is-link">Link button</button>
+<h3>Misc</h3>
+<button class="button is-loading">Loading button</button>
+<button class="button [disabled]">Disabled button</button>
+    </div>
+  </section>
+  </body>
+</html>
