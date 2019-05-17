@@ -1058,7 +1058,7 @@ button.large, [type="button"].large, [type="submit"].large, [type="reset"].large
 }
 
 header {
-  height: 3.1875rem;
+  height: 4.7875rem;
   background: var(--header-back-color);
   color: var(--header-fore-color);
   border-bottom: 0.0625rem solid var(--header-border-color);
@@ -1563,8 +1563,8 @@ mark.inline-block {
 }
 
 :root {
-  --tooltip-back-color: #212121;
-  --tooltip-fore-color: #fafafa;
+  --tooltip-back-color: var(--secondary-fore-color);
+  --tooltip-fore-color: var(--back-color);
 }
 
 .tooltip {
